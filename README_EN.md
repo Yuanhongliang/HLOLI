@@ -1,7 +1,7 @@
 # HLOLI
 ### [中文](README.md) | English###
 
-####Declaration:This project just is a practice that imitating some parts of LOL app and will never for commercial use.If this involves infringement please contact me and I will delete it soon. 
+####Declaration:This project is just a practice that imitating some parts of LOL app and will never for commercial use.If this involves infringement please contact me and I will delete it soon. 
 
 ###Contents
 - [Developing Environment](#1.0)
