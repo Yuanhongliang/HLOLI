@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">search</string>
+    <string name="action_edit">share</string>
+    <string name="app_name">HLOLI</string>
+    <string name="search_hint">please input key word</string>
+    <string name="clear_history">clear history</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="reminder">Kindly Reminder</string>
+    <string name="ensure">are you sure to clear all?</string>
+    <string name="news_detail">Article Detail</string>
+    <string name="no_more_data">no more data enabled.</string>
+    <string name="transition">transition</string>
+    <string name="home">HOME</string>
+    <string name="other">OTHER</string>
+    <string name="share_title">Thanks for sharing</string>
+    <string name="about_me">A new learner in Android but staying curious for new.</string>
+    <string name="github">Github:https://github.com/Yuanhongliang</string>
+    <string name="stackoverflow">stackoverflow:http://stackoverflow.com/users/6943986/xiaoyuan</string>
+    <string name="about_title">About Me</string>
+    <string name="switch_language">Language choose</string>
+    <string name="language">Language</string>
+    <string name="share_text">https://github.com/Yuanhongliang</string>
+    <string name="clear_cache">Clear Cache(%1$s)</string>
+    <string name="fake">pretend to have OnClick</string>
+    <string name="net_error">please check your network</string>
+</resources>

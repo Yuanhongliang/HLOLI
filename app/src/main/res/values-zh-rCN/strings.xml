@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">搜索</string>
+    <string name="action_edit">分享</string>
+    <string name="search_hint">请输入关键词</string>
+    <string name="clear_history">清除历史记录</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="reminder">温馨提示</string>
+    <string name="ensure">确认清除吗？</string>
+    <string name="news_detail">资讯详情</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="transition">transition</string>
+    <string name="home">主页</string>
+    <string name="other">其他</string>
+    <string name="app_name">掌上LOL低配版</string>
+    <string name="share_title">感谢分享</string>
+    <string name="about_me">Android 新手，对新东西充满好奇。</string>
+    <string name="github">Github:https://github.com/Yuanhongliang</string>
+    <string name="stackoverflow">stackoverflow:http://stackoverflow.com/users/6943986/xiaoyuan</string>
+    <string name="about_title">关于我</string>
+    <string name="switch_language">选择语言</string>
+    <string name="language">语言</string>
+    <string name="share_text">https://github.com/Yuanhongliang</string>
+    <string name="clear_cache">清除缓存(%1$s)</string>
+    <string name="fake">假装有点击事件...</string>
+    <string name="net_error">当前网络不可用</string>
+</resources>
