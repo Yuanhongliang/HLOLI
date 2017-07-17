@@ -1,9 +1,9 @@
 # HLOLI
 ### [中文](README.md) | English
 
-####Declaration:This project is just a practice that imitating some parts of LOL app and will never for commercial use.If this involves infringement please contact me and I will delete it soon. 
+#### Declaration:This project is just a practice that imitating some parts of LOL app and will never for commercial use.If this involves infringement please contact me and I will delete it soon. 
 
-###Contents
+### Contents
 - [Developing Environment](#1.0)
 - [App Screenshots](#2.0)
 - [Third Library](#3.0)
@@ -53,7 +53,7 @@
 
 <h4 id = "4.0">4. Download apk</h4>
 
-####[Click to download](apk/app-release.apk)
+#### [Click to download](apk/app-release.apk)
 
 <h4 id = "5.0" >5. Issue</h4>
 
