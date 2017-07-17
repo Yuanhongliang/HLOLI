@@ -1,9 +1,6 @@
 package com.xiaoyuan.hloli.ui.home.adapter;
 
 import android.content.Context;
-import android.content.Intent;
-import android.os.Build;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +10,6 @@ import android.widget.TextView;
 
 import com.xiaoyuan.hloli.R;
 import com.xiaoyuan.hloli.bean.NewsList;
-import com.xiaoyuan.hloli.ui.base.BaseActivity;
-import com.xiaoyuan.hloli.ui.image.ImageActivity;
 import com.xiaoyuan.hloli.ui.web.activity.WebActivity;
 import com.xiaoyuan.hloli.utils.ImageLoadUtils;
 import com.xiaoyuan.hloli.utils.TextUtils;
