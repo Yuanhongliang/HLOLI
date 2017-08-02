@@ -2,7 +2,7 @@
 <resources>
     <string-array name="language">
         <item>Follow system</item>
-        <item>Chinese</item>
+        <item>中文</item>
         <item>English</item>
     </string-array>
 </resources>
