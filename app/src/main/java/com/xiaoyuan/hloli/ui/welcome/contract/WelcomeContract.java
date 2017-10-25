@@ -20,6 +20,8 @@ public interface WelcomeContract {
         void onAdImgGet(AdList adList);
 
         void onChannelListGet(List<Channel> s);
+
+        void skip();
     }
 
     public abstract class Presenter extends BasePresenter<View, Model> {

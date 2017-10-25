@@ -1,5 +1,6 @@
 package com.xiaoyuan.hloli.ui.welcome.activity;
 
+import android.util.Log;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
@@ -60,6 +61,7 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenterImpl, WelcomeM
         startDelay();
     }
 
+
     private void startDelay() {
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
@@ -78,13 +80,17 @@ public class WelcomeActivity extends BaseActivity<WelcomePresenterImpl, WelcomeM
     }
 
     @Override
+    public void skip() {
+        MainActivity.startActivity(mContext);
+    }
+
+    @Override
     public void showLoading(String title) {
 
     }
 
     @Override
     public void showErrorTip(String msg) {
-
     }
 //
 //    @Override

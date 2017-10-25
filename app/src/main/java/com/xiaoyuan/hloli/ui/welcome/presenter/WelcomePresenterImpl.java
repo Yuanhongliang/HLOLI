@@ -1,5 +1,7 @@
 package com.xiaoyuan.hloli.ui.welcome.presenter;
 
+import android.util.Log;
+
 import com.xiaoyuan.hloli.bean.AdList;
 import com.xiaoyuan.hloli.bean.Channel;
 import com.xiaoyuan.hloli.manager.SharedPreManager;
@@ -25,10 +27,17 @@ public class WelcomePresenterImpl extends WelcomeContract.Presenter {
             @Override
             public void onError(Throwable e) {
                 mView.showErrorTip(e.getLocalizedMessage());
+                Log.e("HLOLI", "image get failed.");
+                getCacheAdImage();
             }
 
             @Override
             public void onNext(AdList adList) {
+                if (adList == null) {
+                    Log.e("HLOLI", "image get failed.");
+                    getCacheAdImage();
+                    return;
+                }
                 mView.onAdImgGet(adList);
                 SharedPreManager.getInstance().putAdList(mContext, adList);
             }
@@ -60,6 +69,8 @@ public class WelcomePresenterImpl extends WelcomeContract.Presenter {
         AdList adList = SharedPreManager.getInstance().getAdList(mContext);
         if (adList != null) {
             mView.onAdImgGet(adList);
+        } else {
+            mView.skip();
         }
     }
 }
