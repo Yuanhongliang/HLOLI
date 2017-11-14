@@ -34,7 +34,6 @@
         <activity android:name=".ui.search.activity.SearchActivity" />
         <activity android:name=".ui.search.activity.SearchResultActivity" />
         <activity android:name=".ui.home.activity.ColumnListActivity" />
-        <activity android:name=".ui.image.ImageActivity" />
 
     </application>
 
